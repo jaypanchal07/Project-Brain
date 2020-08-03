@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "73672342846",
+    "firebase_url": "https://project-brain-fafdf.firebaseio.com",
+    "project_id": "project-brain-fafdf",
+    "storage_bucket": "project-brain-fafdf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73672342846:android:e05a4eb4aa17927824c06f",
+        "android_client_info": {
+          "package_name": "com.example.instaappandroidprojectprojectbrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "73672342846-c5am1gq2lche7usbmbislrgsq5j9plbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.instaappandroidprojectprojectbrain",
+            "certificate_hash": "bcc36b9f2561b310e1eeab723a4ba3f7198f3d90"
+          }
+        },
+        {
+          "client_id": "73672342846-qkltekfsggpjuajpdlgdnmvg382fqnma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6pbctmlECYU821K2Os7eqmIADtd1simg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "73672342846-qkltekfsggpjuajpdlgdnmvg382fqnma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

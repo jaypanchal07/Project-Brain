@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GotoActivity">
+
+    <TextView
+        android:id="@+id/txtToDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToDo"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:background="#2196F3"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerToDo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:scrollbars="vertical"
+        app:fastScrollEnabled="false"
+        app:layout_constraintTop_toBottomOf="@+id/txtToDo"
+         />
+</androidx.constraintlayout.widget.ConstraintLayout>
